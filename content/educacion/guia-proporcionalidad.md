@@ -1,0 +1,5 @@
++++
+date = '2025-08-24T18:35:34-04:00'
+draft = true
+title = 'Guia Proporcionalidad'
++++
