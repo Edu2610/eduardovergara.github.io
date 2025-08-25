@@ -1,5 +1,7 @@
 +++
 date = '2025-08-24T18:35:15-04:00'
-draft = true
+draft = false
 title = 'Proyectos'
 +++
+
+Aplicaciones y experimentos

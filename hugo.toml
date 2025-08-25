@@ -1,4 +1,3 @@
-baseURL = "https://edu2610.github.io/"
 title = "Eduardo Vergara — Portafolio"
 languageCode = "es"
 theme = "PaperMod"
@@ -6,6 +5,50 @@ canonifyURLs = true
 
 [params]
   defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  # Hero de la home:
+  [params.homeInfoParams]
+    Title = "Eduardo Vergara"
+    Content = "Programación, IA aplicada a educación y recursos docentes."
+
+# Redes
+[params.socialIcons]
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Edu2610"
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "ENLACE"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "ENLACE"
+
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Proyectos"
+    url = "/proyectos/"
+    weight = 2
+  [[menu.main]]
+    name = "Educación"
+    url = "/educacion/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    name = "Sobre mí"
+    url = "/about/"
+    weight = 5
+  [[menu.main]]
+    name = "Contacto"
+    url = "/contacto/"
+    weight = 6
 
 [params.assets]
   disableFingerprinting = true

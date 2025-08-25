@@ -2,9 +2,10 @@
 title: "Apuesta Maestra"
 date: 2025-08-24
 draft: false
-descripcion: "App React + API-Football para análisis y apuestas responsables."
+descripcion: "App React + API-Football para análisis de partidos."
 repo: "https://github.com/Edu2610/apuesta_maestra"
-tags: ["react", "api-football", "apuestas"]
-tech: ["React", "Vite", "Tailwind", "API-Football"]
+tags: ["react","api-football"]
+tech: ["React","Vite","Tailwind"]
+imagen: "/images/proyectos/apuesta-maestra-cover.png"
 ---
-Breve descripción del proyecto, objetivo, decisiones técnicas y aprendizajes.
+Breve reseña del objetivo, arquitectura y aprendizajes. Incluye capturas y un diagrama si es posible.
