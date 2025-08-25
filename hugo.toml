@@ -54,3 +54,4 @@ canonifyURLs = true
 
 [params.assets]
   disableFingerprinting = true
+ 
