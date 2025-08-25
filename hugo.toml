@@ -8,5 +8,4 @@ canonifyURLs = true
   defaultTheme = "auto"
 
 [params.assets]
-  # Evita rutas fingerprint que a veces no resuelven bien en Pages
   disableFingerprinting = true
