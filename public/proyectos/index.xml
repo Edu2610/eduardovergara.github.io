@@ -13,7 +13,7 @@
       <link>http://localhost:1313/proyectos/apuesta-maestra/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/proyectos/apuesta-maestra/</guid>
-      <description>&lt;p&gt;Breve descripción del proyecto, objetivo, decisiones técnicas y aprendizajes.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Breve reseña del objetivo, arquitectura y aprendizajes. Incluye capturas y un diagrama si es posible.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
