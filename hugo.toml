@@ -1,4 +1,4 @@
-baseURL = "https://edu2610.github.io/"        # o tu baseURL con subcarpeta, si aplica
+baseURL = "https://edu2610.github.io/"   # si fuera Project Page: "https://edu2610.github.io/tu-repo/"
 title = "Eduardo Vergara — Portafolio"
 languageCode = "es"
 theme = "PaperMod"
@@ -8,11 +8,14 @@ canonifyURLs = true
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
+  showFooter = true          # asegura que se renderice el footer
 
+  # Home tipo texto (si luego activas profileMode, puedes comentar este bloque)
   [params.homeInfoParams]
     Title = "Eduardo Vergara"
     Content = "Programación, IA aplicada a educación y recursos docentes."
 
+# ===== Menú superior =====
 [menu]
   [[menu.main]]
     name = "Inicio"
@@ -39,7 +42,7 @@ canonifyURLs = true
     url = "/contacto/"
     weight = 6
 
-# Íconos sociales: usar siempre arreglo de tablas
+# ===== Redes sociales en footer (usar siempre arreglo de tablas) =====
 [[params.socialIcons]]
   name = "github"
   url  = "https://github.com/Edu2610"
@@ -52,6 +55,27 @@ canonifyURLs = true
   name = "youtube"
   url  = "https://www.youtube.com/@MatesConCafé"
 
+# (opcional) email en el footer
+[[params.socialIcons]]
+  name = "email"
+  url  = "mailto:tucorreo@ejemplo.com"
+
+# ===== Opcional: si quieres portada con avatar/botones e iconos grandes =====
+# [params.profileMode]
+#   enabled = true
+#   title = "Eduardo Vergara"
+#   subtitle = "Programación, IA aplicada a educación y recursos docentes."
+#   imageUrl = "/images/avatar.jpg"  # sube un avatar a static/images/
+#   imageWidth = 160
+#   imageHeight = 160
+#   imageTitle = "Eduardo"
+#   [[params.profileMode.buttons]]
+#     name = "Proyectos"
+#     url  = "/proyectos/"
+#   [[params.profileMode.buttons]]
+#     name = "Contacto"
+#     url  = "/contacto/"
+
+# ===== Evitar confusiones con assets fingerprint (puedes dejarlo así) =====
 [params.assets]
   disableFingerprinting = true
- 
