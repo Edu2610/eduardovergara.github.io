@@ -1,36 +1,12 @@
 baseURL = "https://edu2610.github.io/"
-languageCode = "es"
 title = "Eduardo Vergara — Portafolio"
+languageCode = "es"
 theme = "PaperMod"
+canonifyURLs = true
 
 [params]
   defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  comments = false
 
-[menu]
-  [[menu.main]]
-    name = "Inicio"
-    url = "/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Proyectos"
-    url = "/proyectos/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Educación"
-    url = "/educacion/"
-    weight = 3
-
-  [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 4
-
-  [[menu.main]]
-    name = "Contacto"
-    url = "/contacto/"
-    weight = 5
+[params.assets]
+  # Evita rutas fingerprint que a veces no resuelven bien en Pages
+  disableFingerprinting = true
